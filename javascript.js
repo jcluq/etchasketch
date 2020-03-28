@@ -4,7 +4,7 @@ contenido.style.border = "5px solid black";
 contenido.style.width= gridSize + "px";
 contenido.style.height= gridSize + "px";
 contenido.style.grid
-let squares = 100;
+let squares = 30;
 contenido.style.gridTemplateRows= `repeat(${squares},auto)`;
 contenido.style.gridTemplateColumns= `repeat(${squares},auto)`;
 
