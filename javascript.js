@@ -43,7 +43,7 @@ let boxes = document.querySelectorAll(".box");
 
 boxes.forEach(box => {
 
-    box.addEventListener('mouseover',(e) =>{
+    box.addEventListener('click',(e) =>{
         e.target.style.background = "black"
     })
 
